@@ -1,8 +1,8 @@
 pipeline {
     agent {
-        node { label 'php-slave-new' }
+        node
     }
-    
+
     stages {
         stage('Build') {
             steps {
