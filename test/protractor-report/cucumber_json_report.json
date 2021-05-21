@@ -1,0 +1,140 @@
+[
+  {
+    "description": "    Hello Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "feature-name;scenario-name",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Scenario name",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Goto landing page.",
+            "match": {
+              "location": "step_definitions/hello.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Check page title.",
+            "match": {
+              "location": "step_definitions/hello.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Check text.",
+            "match": {
+              "location": "step_definitions/hello.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature-name",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Feature name",
+    "tags": [],
+    "uri": "features/hello.feature"
+  },
+  {
+    "description": "    Login Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "feature-login;scenario-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Scenario login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Goto login page.",
+            "match": {
+              "location": "step_definitions/login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Check username.",
+            "match": {
+              "location": "step_definitions/login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Check password.",
+            "match": {
+              "location": "step_definitions/login.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Feature login",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
